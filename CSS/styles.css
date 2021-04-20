@@ -1,0 +1,16 @@
+header {
+    
+}
+
+.jumbotron {
+    background-image: url("../img/jumbo.jpg");
+    padding: 30px 0px;
+    margin: 0px;
+    font-family: "Apple Chancery", Papyrus, Chalkduster;
+    color: maroon;
+}
+
+h1 {
+    font-size: 7em;
+    font-weight: bold;
+} 
