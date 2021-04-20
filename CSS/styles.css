@@ -1,13 +1,15 @@
 header h1 {
-  font-size: 7em;
+  font-size: 8em;
   font-weight: bold; }
 
 .jumbotron {
-  background-image: url("../img/jumbo.jpg");
+  background: url("../img/jumbo.jpg");
   padding: 30px 0px;
   margin: 0px;
-  font-family: "Apple Chancery", Papyrus, Chalkduster;
+  font-family: "Tangerine", "Apple Chancery", Papyrus, Chalkduster, cursive;
   color: maroon; }
 
-h3 {
-  color: orange; }
+body {
+  background: url("../img/bookbg.jpg"); 
+  background-size: 100%;
+}

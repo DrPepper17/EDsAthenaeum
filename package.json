@@ -10,11 +10,9 @@
     "lite": "lite-server",
     "imagemin": "imagemin img/* -o dist/img",
     "scss": "node-sass -o css/ css/",
-    "start": "npm run watch:all",
+    "start": "npm run scss && npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
-    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
-    "watch:all": "npm run scss && npm run lite"
+    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin authors.html -d dist --htmlmin -o dist/authors.html && usemin books.html -d dist --htmlmin -o dist/books.html && usemin cafe.html -d dist --htmlmin -o dist/cafe.html && usemin events.html -d dist --htmlmin -o dist/events.html && usemin garden.html -d dist --htmlmin -o dist/garden.html && usemin rooms.html -d dist --htmlmin -o dist/rooms.html && usemin links.html -d dist --htmlmin -o dist/links.html"
   },
   "repository": {
     "type": "git",
