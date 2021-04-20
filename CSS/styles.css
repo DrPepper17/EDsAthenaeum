@@ -3,13 +3,24 @@ header h1 {
   font-weight: bold; }
 
 .jumbotron {
-  background: url("../img/jumbo.jpg");
+  background-image: url("../img/jumbo.jpg");
   padding: 30px 0px;
   margin: 0px;
   font-family: "Tangerine", "Apple Chancery", Papyrus, Chalkduster, cursive;
   color: maroon; }
 
 body {
-  background: url("../img/bookbg.jpg"); 
+  background: url("../img/bookbg.jpg");
+  background-size: 100%; }
+
+.bookshelf {
+  background-image: url("../img/emptyshelftall.png");
   background-size: 100%;
-}
+  background-repeat: repeat-y; }
+
+#noGap {
+  margin-right: 14px;
+  padding-right: 0px; }
+
+nav {
+  background-color: #915303; }

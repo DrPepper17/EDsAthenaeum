@@ -17,3 +17,18 @@ body {
     background: url("../img/bookbg.jpg"); 
     background-size: 100%;
 }
+
+.bookshelf {
+    background-image: url("../img/emptyshelftall.png");
+    background-size: 100%;
+    background-repeat: repeat-y
+  }
+  
+  #noGap {
+    margin-right: 14px;
+    padding-right: 0px;
+  }
+  
+  nav {
+    background-color: #915303;
+  }
