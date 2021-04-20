@@ -1,3 +1,8 @@
+$color-poetry: rgb(4, 255, 234);
+
+$body-font: Arial, Helvetica, sans-serif;;
+$header-font: "Tangerine", "Apple Chancery", Papyrus, Chalkduster, Times, sans-serif; 
+
 header {
     h1 {
         font-size: 8em;
@@ -7,23 +12,32 @@ header {
     }
 }
 
+h1, h2, h3 {
+    font-family: $header-font;
+}
+
 h1, h2 {
-    font-family: "Tangerine", "Apple Chancery", Papyrus, Chalkduster, cursive;
-    color: maroon; 
+  color: maroon;
 }
 
 h1 { 
-    font-size: 5em;
+    font-size: 7em;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 5em;
 }
+
+h3 {
+  color: $color-poetry;
+  font-size: 3em;
+}
+
 
 body {
     background-image: url("../img/bookbg.jpg"); 
     background-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $body-font;
 }
 
 nav {
@@ -34,8 +48,8 @@ nav {
 }
 
 p {
-    font-family: cursive, Arial, Helvetica, sans-serif;  
-    font-size: 1.4em;
+    font-family: cursive, $body-font;  
+    font-size: 1.5em;
     color: deeppink;
     font-weight: bold;
 }
@@ -44,7 +58,7 @@ p {
     background-image: url("../img/jumbo.jpg");
     padding: 30px 0px;
     margin: 0px;
-    font-family: "Tangerine", "Apple Chancery", Papyrus, Chalkduster, cursive;
+    font-family: $header-font;
     color: maroon;
 }
 
@@ -73,8 +87,4 @@ p {
     color: transparent;
 }
 
-#noGap {
-    margin-right: 14px;
-    padding-right: 0px;
-}
 
