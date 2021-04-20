@@ -1,0 +1,29 @@
+{
+  "name": "edsathenaeum",
+  "version": "1.0.0",
+  "description": "Website for a fictional Book Cafe as part of class portfolio project to demonstrate abilities.",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrPepper17/EDsAthenaeum.git"
+  },
+  "author": "Ryan Mockelmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrPepper17/EDsAthenaeum/issues"
+  },
+  "homepage": "https://github.com/DrPepper17/EDsAthenaeum#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
