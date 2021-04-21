@@ -1,4 +1,4 @@
-$color-poetry: rgb(4, 255, 234);
+$color-poetry: #2f31c0;
 
 $body-font: Arial, Helvetica, sans-serif;;
 $header-font: "Tangerine", "Apple Chancery", Papyrus, Chalkduster, Times, sans-serif; 
@@ -35,7 +35,7 @@ h3 {
 
 
 body {
-    background-image: url("../img/bookbg.jpg"); 
+    background-image: url("../img/bookbggray.png"); 
     background-size: 100%;
     font-family: $body-font;
 }
@@ -50,6 +50,7 @@ nav {
 p {
     font-family: cursive, $body-font;  
     font-size: 1.5em;
+    margin-top: 20px;
     color: deeppink;
     font-weight: bold;
 }
