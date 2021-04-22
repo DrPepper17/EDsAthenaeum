@@ -55,6 +55,13 @@ p {
 .navbar {
   background-size: contain; }
 
+.removessubtleborder {
+  border: 0px none blue; }
+
 #invisible {
   background-color: transparent;
   color: transparent; }
+
+#navbarBreadcrumb {
+  margin: 0px;
+  padding: 0px 10px; }
