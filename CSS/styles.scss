@@ -1,4 +1,5 @@
 $color-poetry: #2f31c0;
+$color-breadcrumb: rgb(248, 223, 223);
 
 $body-font: Arial, Helvetica, sans-serif;;
 $header-font: "Tangerine", "Apple Chancery", Papyrus, Chalkduster, Times, sans-serif; 
@@ -30,11 +31,12 @@ h2 {
 
 h3 {
   color: $color-poetry;
-  font-size: 3em;
+  font-size: 2.4em;
 }
 
 body {
     background-image: url("../img/bookbggray.png"); 
+    background-attachment: fixed;
     background-size: 100%;
     font-family: $body-font;
 }
@@ -54,6 +56,10 @@ p {
     font-weight: bold;
 }
 
+a {
+    color: teal;
+  }
+
 .jumbotron {
     background-image: url("../img/jumbo.jpg");
     padding: 30px 0px;
@@ -63,12 +69,13 @@ p {
 }
 
 .bookshelf {
-    background-image: url("../img/emptyshelftall.png");
+    background-image: url("../img/emptyshelftall3.png");
     background-size: 160px;
     background-repeat: repeat-y;
 }
 
 .breadcrumb {
+    background-color: $color-breadcrumb;
     a {
         color: inherit;
     }

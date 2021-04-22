@@ -18,10 +18,11 @@ h2 {
 
 h3 {
   color: #2f31c0;
-  font-size: 3em; }
+  font-size: 2.4em; }
 
 body {
   background-image: url("../img/bookbggray.png");
+  background-attachment: fixed;
   background-size: 100%;
   font-family: Arial, Helvetica, sans-serif; }
 
@@ -37,6 +38,9 @@ p {
   color: deeppink;
   font-weight: bold; }
 
+a {
+  color: teal; }
+
 .jumbotron {
   background-image: url("../img/jumbo.jpg");
   padding: 30px 0px;
@@ -45,12 +49,14 @@ p {
   color: maroon; }
 
 .bookshelf {
-  background-image: url("../img/emptyshelftall.png");
+  background-image: url("../img/emptyshelftall3.png");
   background-size: 160px;
   background-repeat: repeat-y; }
 
-.breadcrumb a {
-  color: inherit; }
+.breadcrumb {
+  background-color: #f8dfdf; }
+  .breadcrumb a {
+    color: inherit; }
 
 .navbar {
   background-size: contain; }
