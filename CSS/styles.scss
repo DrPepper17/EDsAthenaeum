@@ -1,7 +1,8 @@
 $color-poetry: #2f31c0;
 $color-breadcrumb: rgb(248, 223, 223);
 
-$body-font: Arial, Helvetica, sans-serif;;
+$body-font: Arial, Helvetica, sans-serif;
+$cursive-font: cursive, $body-font;
 $header-font: "Tangerine", "Apple Chancery", Papyrus, Chalkduster, Times, sans-serif; 
 
 header {
@@ -50,7 +51,7 @@ nav {
 }
 
 p {
-    font-family: cursive, $body-font;  
+    font-family: $cursive-font;  
     font-size: 1.5em;
     margin-top: 20px;
     color: deeppink;
@@ -94,10 +95,29 @@ a {
     border: solid 5px white;
     border-radius: 15px;
     background-color: black;
-    margin: 50px;
     img {
         margin: auto;
     }
+  }
+
+.cafecarousel {
+    margin: 50px auto;
+    width: 430px;
+    height: 310px;
+  }
+
+.coffeecarousel {
+    margin: 50px auto;    
+    width: 270px;
+    height: 190px;
+}
+
+.cafeimg {
+    width: inherit;
+}
+
+.carousel-caption {
+    font-family: $cursive-font;
   }
 
 .nogap {

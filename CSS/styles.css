@@ -68,19 +68,32 @@ a {
 .carousel {
   border: solid 5px white;
   border-radius: 15px;
-  background-color: black;
-  margin: 50px; }
+  background-color: black; }
   .carousel img {
     margin: auto; }
 
+.cafecarousel {
+  margin: 50px auto;
+  width: 430px;
+  height: 310px; }
+
+.coffeecarousel {
+  margin: 50px auto;
+  width: 270px;
+  height: 190px; }
+
+.cafeimg {
+  width: inherit; }
+
+.carousel-caption {
+  font-family: cursive, Arial, Helvetica, sans-serif; }
+
 .nogap {
   margin: inherit 0px;
-  padding: inherit 0px;
-}
+  padding: inherit 0px; }
 
 .card-body {
-  padding-bottom: 0px;
-}
+  padding-bottom: 0px; }
 
 #invisible {
   background-color: transparent;

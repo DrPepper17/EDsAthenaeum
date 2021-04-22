@@ -86,22 +86,17 @@
 
                         <p>That is why we here at ED's Athenaeum we are proud to offer our own inhouse coffee service, the Evergreens Café. Inspired by the <a href="https://www.emilydickinsonmuseum.org/the-museum/our-site/the-evergreens/">adult home</a> of Austin Dickinson built in 1856, our coffee shop seeks to invoke the aesthetic of the famed house's Italianate domestic architecture while serving you great coffee. Our coffee blends are crafted by our own staff and served at cost to save you every penny. Cause after all, our focus here isn't on the coffee or the money, but solely on our love of literature. The coffee is just meant as an added bonus so we strongly recommend that you try some. Afterall, you cannot read on an empty stomach.</p>
 
-                        <div id="evergreensCarousel" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                              <li data-target="#evergreensCarousel" data-slide-to="0" class="active"></li>
-                              <li data-target="#evergreensCarousel" data-slide-to="1"></li>
-                              <li data-target="#evergreensCarousel" data-slide-to="2"></li>
-                            </ol>
+                        <div id="evergreensCarousel" class="carousel slide cafecarousel" data-ride="carousel">
                             <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img class="d-block h-100" src="IMG/coffee/evergreencoffeebar2.jpg" alt="First slide">
-                              </div>
-                              <div class="carousel-item">
-                                <img class="d-block h-100" src="IMG/coffee/coffeelounge.jpg" alt="Second slide">
-                              </div>
-                              <div class="carousel-item">
-                                <img class="d-block h-100" src="IMG/coffee/happypatron.jpg" alt="Third slide">
-                              </div>
+                                <div class="carousel-item active">
+                                    <img class="d-block h-100" src="IMG/coffee/evergreencoffeebar2.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block h-100" src="IMG/coffee/coffeelounge.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block h-100" src="IMG/coffee/happypatron.jpg" alt="Third slide">
+                                </div>
                             </div>
                             <a class="carousel-control-prev" href="#evergreensCarousel" role="button" data-slide="prev">
                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -117,8 +112,8 @@
 
                         <h2>Our Menu</h2>
 
-                        <div class="row nogap text-center">
-                            <div class="col order-md-last">
+                        <div class="row nogap text-center mt-3">
+                            <div class="col order-lg-last align-self-center ">
                                 <div class="card">
                                     <h4 class="card-header bg-success text-left">Coffee</h4>
                                     <div class="card-body bg-info">
@@ -127,7 +122,7 @@
                                             <dt class="col-2">$0.75</dt>
                                             <dd class="col-4">Dark Roast</dd>
                                             <dt class="col-2">$1.00</dt>
-                                            <dd class="col-4">French Vanilla</dd>
+                                            <dd class="col-4">Vanilla Mocha</dd>
                                             <dt class="col-2">$2.00</dt>
                                             <dd class="col-4">French Press</dd>
                                             <dt class="col-2">$2.00</dt>
@@ -143,110 +138,114 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
+                            <div class="col-lg-5">
+                                <div id="coffeeCarousel" class="carousel slide coffeecarousel" data-ride="carousel">
                                     <div class="carousel-inner">
-                                      <div class="carousel-item active">
-                                        <img class="d-block w-100" src="..." alt="First slide">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img class="d-block w-100" src="..." alt="Second slide">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img class="d-block w-100" src="..." alt="Third slide">
-                                      </div>
+                                        <div class="carousel-item active">
+                                            <img class="d-block h-100" src="IMG/coffee/americanbrew.jpg" alt="American Brew">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5 class="align-self-bottom">American Brew</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block h-100" src="IMG/coffee/darkroast.jpg" alt="Dark Roast">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5 class="align-self-bottom">Dark Roast</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block h-100" src="IMG/coffee/vanillamocha.jpg" alt="Vanilla Mocha">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5 class="align-self-bottom">Vanilla Mocha</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block h-100" src="IMG/coffee/frenchpress.jpg" alt="French Press">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5 class="align-self-bottom">French press</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block h-100" src="IMG/coffee/latte.jpg" alt="Latte">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5 class="align-self-bottom">Latte</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block h-100" src="IMG/coffee/icedcoffee.jpg" alt="Iced Coffee">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5 class="align-self-bottom">Iced Coffee</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block h-100" src="IMG/coffee/espressoshot.jpg" alt="Espresso Shot">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5 class="align-self-bottom">Espresso</h5>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <a class="carousel-control-prev" href="#coffeeCarousel" role="button" data-slide="prev">
                                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                       <span class="sr-only">Previous</span>
                                     </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <a class="carousel-control-next" href="#coffeeCarousel" role="button" data-slide="next">
                                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                       <span class="sr-only">Next</span>
                                     </a>
                                   </div>
+                                  
                             </div>
                         </div>
                     
 
                         <div class="media text-center mt-5">                            
-                            <img class="d-flex m-auto img-thumbnail" src="img/birds/dancingfeatherthumbnail.jpg" alt="Illustration dancing bird."/>
                             <div class="media-body align-self-center d-none d-sm-block">
                                 <h3><q>"Hope" is the thing with feathers -<br/>
                                     That perches in the soul -<br/>
                                     And sings the tune without the words -<br/>
                                     And never stops - at all -</q></h3>
-                            </div>                          
+                            </div>     
+                            <img class="d-flex m-auto mr-lg-5 img-thumbnail" src="img/birds/dancingfeatherthumbnail.jpg" alt="Illustration dancing bird."/>                     
                         </div>
 
                         <div class="row nogap text-center mt-5">
-                            <div class="col">
+                            <div class="col mb-5 mb-lg-0 order-lg-last align-self-center">
                                 <div class="card">
                                     <h4 class="card-header bg-success text-left">Tea</h4>
                                     <div class="card-body bg-info">
                                         <dl class="row text-left">
-                                            <dd class="col-4">Black Tea</dd>
-                                            <dd class="col-4">Green Tea</dd>
-                                            <dd class="col-4">Chai Tea</dd>
-                                            <dd class="col-4">Mint Tea</dd>
-                                            <dd class="col-4">Ice Tea</dd>
-                                            <dd class="col-4">Citrus Chamomile</dd>
-                                            <dd class="col-4">English Breakfasat</dd>
-                                            <dd class="col-4">Herbal Tea</dd>
-                                            <dd class="col-4">Sweet Tea</dd>
+                                            <dd class="col-6">Black</dd>
+                                            <dd class="col-3">Green</dd>
+                                            <dd class="col-3">Mint</dd>
+                                            <dd class="col-6">Citrus Chamomile</dd>
+                                            <dd class="col-3">Herbal </dd>
+                                            <dd class="col-3">Chai </dd>
+                                            <dd class="col-6">English Breakfast</dd>
+                                            <dd class="col-3">Ice Tea</dd>
+                                            <dd class="col-3">Sweet Tea</dd>
                                             <dt class="col-12">** All teas are $0.50</dt>
                                             <dt class="col-12">*** Hot water refills are free, however new tea bags are not.</dt>
                                         </dl>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
-                                    <div class="carousel-inner">
-                                      <div class="carousel-item active">
-                                        <img class="d-block w-100" src="..." alt="First slide">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img class="d-block w-100" src="..." alt="Second slide">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img class="d-block w-100" src="..." alt="Third slide">
-                                      </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                      <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                      <span class="sr-only">Next</span>
-                                    </a>
-                                  </div>
+                            <div class="col-lg-5 align-self-center">
+                                <img class="img-thumbnail cafeimg" src="img/coffee/on-the-tip-toe-of-expectation.jpg" alt="Little girl peering over table waiting on tea time."/>
                             </div>
                         </div>
 
-                        <div class="media text-center mt-5">                            
+                        <div class="media text-center mt-5">                                                                                
                             <div class="media-body align-self-center d-none d-sm-block">
                                 <h3><q>And sweetest - in the Gale - is heard -<br/>
                                     And sore must be the storm -<br/>
                                     That could abash the little Bird<br/>
                                     That kept so many warm -</q></h3>
                             </div>
-                            <img class="d-flex m-auto img-thumbnail" src="img/birds/muscipeta.jpg" alt="Illustrated red bird soaring."/>
+                            <img class="d-flex m-auto mr-lg-5 img-thumbnail" src="img/birds/muscipeta.jpg" alt="Illustrated red bird soaring.">  
                         </div>
 
                         <div class="row nogap text-center mt-5">
-                            <div class="col order-md-last">
+                            <div class="col mb-5 mb-lg-0 order-lg-last align-self-center">
                                 <div class="card">
                                     <h4 class="card-header bg-success text-left">Non-Caffeinated</h4>
                                     <div class="card-body bg-info">
@@ -269,57 +268,32 @@
                                             <dt class="col-2">$3.00</dt>
                                             <dd class="col-5">Old Fashioned Sasparilla</dd>
                                             <dt class="col-7">$1.50</dt>
-                                            <dd class="col-7">Energy Drinks (Monster, Red Bull Etc)</dd>
-                                            <dt class="col-5">$2.50</dt>
-                                            <dd class="col-4">Fresh Fruit Smoothies</dd>
-                                            <dd class="col-6"><em>**pending availibility of ingredients</em></dd>
-                                            <dt class="col-2">$3.00</dt>
+                                            <dd class="col-5">Fresh Fruit Smoothies**</dd>
+                                            <dt class="col-7">$2.50</dt>
+                                            <dd class="col-8">Energy Drinks (<em>Monster, Red Bull et cetera</em>)</dd>
+                                            <dt class="col-4">$2.50</dt>
+                                            <dd class="col-12"><em>**pending availibility of ingredients</em></dd>
                                         </dl>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
-                                    <div class="carousel-inner">
-                                      <div class="carousel-item active">
-                                        <img class="d-block w-100" src="..." alt="First slide">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img class="d-block w-100" src="..." alt="Second slide">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img class="d-block w-100" src="..." alt="Third slide">
-                                      </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                      <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                      <span class="sr-only">Next</span>
-                                    </a>
-                                  </div>
+                            <div class="col-lg-5 align-self-center">
+                                <img class="img-thumbnail cafeimg" src="img/coffee/lavenderlemonade.jpg" alt="Lavender Leonade."/>
                             </div>
                         </div>
 
                         <div class="media text-center mt-5">                            
-                            <img class="d-flex m-auto img-thumbnail" src="img/birds/pericrocotussolaris.jpg" alt="Colorful illustrated orange and yellow birds."/>
                             <div class="media-body align-self-center d-none d-sm-block">
                                 <h3><q>I’ve heard it in the chillest land -<br/>
                                     And on the strangest Sea -<br/>
                                     Yet - never - in Extremity,<br/>
                                     It asked a crumb - of me.</q></h3>
-                            </div>                          
+                            </div> 
+                            <img class="d-flex m-auto mr-lg-5 img-thumbnail" src="img/birds/pericrocotussolaris.jpg" alt="Colorful illustrated orange and yellow birds."/>                         
                         </div>
 
                         <div class="row nogap text-center mt-5">
-                            <div class="col">
+                            <div class="col mb-5 mb-lg-0 order-lg-last align-self-center">
                                 <div class="card">
                                     <h4 class="card-header bg-success text-left">Finger Foods</h4>
                                     <div class="card-body bg-info">
@@ -340,9 +314,13 @@
                                             <dt class="col-2">$2.00</dt>
                                             <dd class="col-4">Ham & Swiss Panini</dd>
                                             <dt class="col-2">$3.50</dt>
-                                            <dd class="col-3">Bagel <strong>$1.25</strong></dd>
-                                            <dd class="col-4">plus schmear <strong>$0.75</strong></dd>
-                                            <dd class="col-5">plus lox <strong>$1.00</strong></dd>
+                                            <dd class="col-4">Bagel</dd>
+                                            <dt class="col-2">$1.25</dt>
+                                            <dd class="col-4"><em>add schmear</em></dd>
+                                            <dt class="col-2">$0.75</dt>
+                                            <dd class="col-6"></dd>
+                                            <dd class="col-4"><em>add lox</em></dd>
+                                            <dt class="col-2">$1.00</dt>
                                             <dd class="col-4">Donuts***</dd>
                                             <dt class="col-8">$1.25</dt>
                                             <dd class="col-12"><em>**Pending season and supermarket availability.</em></dd>
@@ -351,33 +329,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
-                                    <div class="carousel-inner">
-                                      <div class="carousel-item active">
-                                        <img class="d-block w-100" src="..." alt="First slide">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img class="d-block w-100" src="..." alt="Second slide">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img class="d-block w-100" src="..." alt="Third slide">
-                                      </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                      <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                      <span class="sr-only">Next</span>
-                                    </a>
-                                  </div>
+                            <div class="col-lg-5 align-self-center">
+                                <img class="img-thumbnail cafeimg" src="img/coffee/bagel.jpg" alt="Schmear Lox Bagel." />
                             </div>
                         </div>
 
