@@ -14,6 +14,7 @@ h1 {
   font-size: 7em; }
 
 h2 {
+  text-align: center;
   font-size: 5em; }
 
 h3 {
@@ -64,6 +65,23 @@ a {
 .removessubtleborder {
   border: 0px none blue; }
 
+.carousel {
+  border: solid 5px white;
+  border-radius: 15px;
+  background-color: black;
+  margin: 50px; }
+  .carousel img {
+    margin: auto; }
+
+.nogap {
+  margin: inherit 0px;
+  padding: inherit 0px;
+}
+
+.card-body {
+  padding-bottom: 0px;
+}
+
 #invisible {
   background-color: transparent;
   color: transparent; }
@@ -71,3 +89,6 @@ a {
 #navbarBreadcrumb {
   margin: 0px;
   padding: 0px 10px; }
+
+#bookshelfNavbar {
+  padding-left: 0px; }
