@@ -27,6 +27,14 @@ body {
   background-size: 100%;
   font-family: Arial, Helvetica, sans-serif; }
 
+table {
+  border: 1px solid black;
+  margin: 45px 0px;
+  background-color: rgba(255, 175, 164, 0.705); }
+
+th, td {
+  border-bottom: 1px solid black; }
+
 nav, .graybook {
   background-image: url("../IMG/grayscalealice4.png"); }
   nav .breadcrumb, .graybook .breadcrumb {
