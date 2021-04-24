@@ -126,6 +126,12 @@ a {
     height: 190px;
 }
 
+.scificarousel {
+    margin: 50px auto;
+    width: 363;
+    height: 280; 
+}
+
 .cafeimg {
     width: inherit;
 }
@@ -154,12 +160,24 @@ a {
     padding-bottom: 0px;
 }
 
-.tab-content {
-    border: 1px solid #DDD;
+.tab-content, #accordion .card {
+    border: 3px solid rgba(248, 216, 35, 0.836);
     border-top: none;
     padding: 10px;
     h2, p {
         color: orange;
+    }
+}
+
+#accordion .card {
+    background-image: url("../IMG/lewiscarrol.jpg"); 
+    a, a:hover {
+        color: cyan;
+    font-size: 1.6em;
+    font-family: copperplate;
+    }
+    p {
+        color: greenyellow;
     }
 }
 
