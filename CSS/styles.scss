@@ -225,6 +225,11 @@ a {
     color: $color-poetry
 }
 
+#map {
+    border: none;
+    background-color: rgba(164, 229, 255, 0.705); 
+  }
+
 #redRoom h2, #redRoom p {
     color: red;
 }
