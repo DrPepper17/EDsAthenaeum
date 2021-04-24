@@ -5,17 +5,6 @@ $body-font: Arial, Helvetica, sans-serif;
 $cursive-font: cursive, $body-font;
 $header-font: "Tangerine", "Apple Chancery", Papyrus, Chalkduster, Times, sans-serif; 
 
-a {
-    color: teal;
-}
-
-body {
-    background-image: url("../img/bookbggray.png"); 
-    background-attachment: fixed;
-    background-size: 100%;
-    font-family: $body-font;
-}
-
 header {
     h1 {
         font-size: 8em;
@@ -30,7 +19,7 @@ h1, h2, h3 {
 }
 
 h1, h2 {
-    color: maroon;
+  color: maroon;
 }
 
 h1 { 
@@ -43,14 +32,32 @@ h2 {
 }
 
 h3 {
-    color: $color-poetry;
-    font-size: 2.4em;
+  color: $color-poetry;
+  font-size: 2.4em;
 }
 
-img { 
+body {
+    background-image: url("../img/bookbggray.png"); 
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: $body-font;
+}
+
+img {
+    
     margin-left: auto;
     margin-right: auto;
+  }
+
+table {
+    border: 1px solid black;
+    margin: 45px 0px ;
+    background-color: rgba(255, 175, 164, 0.705);
 }
+
+th, td {
+    border-bottom: 1px solid black;
+  }
 
 nav, .graybook {
     background-image: url("../IMG/grayscalealice4.png");
@@ -68,14 +75,16 @@ p {
     font-weight: bold;
 }
 
-table {
-    border: 1px solid black;
-    margin: 45px 0px ;
-    background-color: rgba(255, 175, 164, 0.705);
-}
+a {
+    color: teal;
+  }
 
-th, td {
-    border-bottom: 1px solid black;
+.jumbotron {
+    background-image: url("../img/jumbo.jpg");
+    padding: 30px 0px;
+    margin: 0px;
+    font-family: $header-font;
+    color: maroon;
 }
 
 .bookshelf {
@@ -95,18 +104,12 @@ th, td {
     margin: 25px 5px 5px;
 }
 
-.cafecarousel {
-    margin: 50px auto;
-    width: 430px;
-    height: 310px;
+.navbar {
+  background-size: contain;
 }
 
-.card {
-    margin-bottom: 50px;
-}
-
-.card-body {
-    padding-bottom: 0px;
+.removessubtleborder {
+    border: 0px none blue;
 }
 
 .carousel {
@@ -116,6 +119,20 @@ th, td {
     img {
         margin: auto;
     }
+  }
+
+.cafecarousel {
+    margin: 50px auto;
+    width: 430px;
+    height: 310px;
+}
+
+.card {
+    margin-bottom: 51px;
+}
+
+.card-body {
+    padding-bottom: 0px;
 }
 
 .carousel-caption {
@@ -128,24 +145,22 @@ th, td {
     height: 190px;
 }
 
+.scificarousel {
+    margin: 50px auto;
+    width: 363;
+    height: 280; 
+}
+
 .graybook, .media {
     margin-bottom: 25px;
 }
 
-.jumbotron {
-    background-image: url("../img/jumbo.jpg");
-    padding: 30px 0px;
-    margin: 0px;
-    font-family: $header-font;
-    color: maroon;
-}
-
-.media-body h3 {
+  .media-body h3 {
     font-size: 2em;
     text-align: center;
     margin-right: 3px;;
     margin-left: 3px;
-}
+  }
 
 .modal-body {
     background-image: url("../IMG/grayscalealice4.png");
@@ -154,25 +169,10 @@ th, td {
     color: cyan;
 }
 
-.navbar {
-  background-size: contain;
-}
-
-.removessubtleborder {
-    border: 0px none blue;
-}
-
-.scificarousel {
-    margin: 50px auto;
-    width: 363;
-    height: 280; 
-}
-
 .tab-content, #accordion .card {
     border: 3px solid rgba(248, 216, 35, 0.836);
     border-top: none;
     padding: 10px;
-    margin-bottom: 0px;
     h2, p {
         color: orange;
     }
@@ -190,52 +190,9 @@ th, td {
     }
 }
 
-#bookshelfNavbar {
-    padding-left: 0px;
-}
-
-#conferenceTabs li {
-    font-size: 1.4em;
-    font-weight: bolder;
-    font-family: Gothic;
-    .active {
-        background-image: url("../img/dickens2.jpg");
-        background-size: 100% 100%;
-        color: cyan;
-        border-bottom-color: transparent; 
-    }
-}
-
-#evergreens {
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-#footer a {
-    padding: 0px;
-    margin: 0px;
-}
-
-#footer, #footer p {
-    font-size: 1.4em;
-    font-family: $body-font;
-    color: $color-poetry;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-
-#indigoRoom h2, #indigoRoom p {
-    color: violet;
-}
-
 #invisible {
     background-color: transparent;
     color: transparent;
-}
-
-#map {
-    border: none;
-    background-color: rgba(164, 229, 255, 0.705); 
 }
 
 #navbarBreadcrumb {
@@ -243,16 +200,8 @@ th, td {
     padding: 0px 10px;
 }
 
-#redRoom h2, #redRoom p {
-    color: red;
-}
-
-#roomModal .modal-header {
-    background-image: url("../img/dickens2.jpg");
-    background-size: 100% 100%;
-    h1 {
-        color: cyan
-    }
+#bookshelfNavbar {
+    padding-left: 0px;
 }
 
 #studioTabs li {
@@ -267,6 +216,52 @@ th, td {
     }
 }
 
+#conferenceTabs li {
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: Gothic;
+    .active {
+        background-image: url("../img/dickens2.jpg");
+        background-size: 100% 100%;
+        color: cyan;
+        border-bottom-color: transparent; 
+    }
+}
+
+#footer, #footer p {
+    font-size: 1.4em;
+    font-family: $body-font;
+    color: $color-poetry;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#footer a {
+    padding: 0px;
+    margin: 0px;
+  }
+
+#map {
+    border: none;
+    background-color: rgba(164, 229, 255, 0.705); 
+  }
+
+#redRoom h2, #redRoom p {
+    color: red;
+}
+
+#indigoRoom h2, #indigoRoom p {
+  color: violet;
+}
+
 #turquoiseRoom h2, #turquoiseRoom p {
-    color: greenyellow;
+  color: greenyellow;
+}
+
+#roomModal .modal-header {
+    background-image: url("../img/dickens2.jpg");
+    background-size: 100% 100%;
+    h1 {
+        color: cyan
+    }
 }
